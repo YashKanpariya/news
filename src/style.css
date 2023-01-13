@@ -1,0 +1,56 @@
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo h1
+{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+li a{
+    color: black;
+}
+ul li{
+    cursor: context-menu;
+    color: yellow;
+}
+/*        new */
+.main-box
+{
+    height: 650px; 
+    margin-top: 20px;
+    box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.main-img
+{
+    height: 300px;
+    width: auto;
+}
+.main-img img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+}
+.data
+{
+    justify-content: space-between;
+    padding: 10px;
+}
+.more-btn button a{
+    transition: o.3s;
+}
+button a{
+    color:  white;
+    text-decoration: none;
+}
+.more-btn button:hover{
+    color: yellow;
+    background-color: white;
+}
